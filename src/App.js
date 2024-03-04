@@ -20,7 +20,7 @@ function App() {
       dynamic_style: "asc"
     },
     {
-      title: `User
+      title: `
       El Nido, Philippines`,
       discription: `
       El Nido, located in the province of Palawan in the Philippines, is a tropical paradise renowned for its stunning natural beauty and pristine beaches. Here's a glimpse into what makes El Nido a must-visit destination for nature tourism:`,
@@ -28,14 +28,20 @@ function App() {
       display_img: "http://localhost:3000/images/island2.jpg",
       dynamic_style: "des"
     }
+   
 ]);
+function Aero(){
+  if(data.title===''){
+    setData('Newyork')
+  }
+}
 
   return (
     <div className="App">
        <Navbar />
        <Banner />
        {data && data.map(d => (
-          <DisplayContent data={d}  />
+          <DisplayContent data={d} aero={Aero}  />
        ))}
        <DisplayTwo />
        <ContactUs/>
