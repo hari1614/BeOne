@@ -1,5 +1,4 @@
 import './style.displayContent.css';
-import Island1 from '../../assets/images/island1.jpg';
 const displayContent = (props) => {
     console.log('props:', props)
    

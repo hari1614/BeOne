@@ -1,9 +1,8 @@
-import beOne from '../../assets/images/beOne.png';
-import banner from '../../assets/images/garth-pratt-3YfSwCfJ6Do-unsplash.jpg';
+
 import '../Navbar/style.navbar.css'
 import { MenuItems } from "./MenuItems";
 const Navbar = () => {
-  const title = 'BE one'
+  
   return (
 
     <nav className="navbar">

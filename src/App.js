@@ -7,9 +7,8 @@ import Navbar from "./components/Navbar/Navbar";
 import ContactUs from "./components/ContactUs/ContactUs";
 import DisplayContent from "./components/DisplayContent/DisplayContent";
 import { useState } from "react";
-import Test from "./components/Test";
 import DisplayTwo from "./components/DisplayContent/DisplayTwo/DisplayTwo";
-// import Test from "./components/Test";
+
 
 function App() {
   const [data, setData] = useState([
@@ -38,20 +37,6 @@ function App() {
        {data && data.map(d => (
           <DisplayContent data={d}  />
        ))}
-
-       {/* <div className="display-block"> */}
-       {/* <DisplayContent title="Hello all!!" styleClass="one" />
-       <DisplayContent title="second Hello all!!" styleClass="two" /> */}
-      
-      {/* {data && data.map(d => (
-        <DisplayContent planData={d} />
-      ))} */}
-       {/* <DisplayContent /> */}
-       {/* </div> */}
-       
-       {/* <ContactUs/> */}
-      {/* <Test /> */}
-       {/* <Test /> */}
        <DisplayTwo />
        <ContactUs/>
        <Footer />

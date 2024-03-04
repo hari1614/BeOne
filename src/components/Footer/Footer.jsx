@@ -6,20 +6,20 @@ const Footer = () => {
                 <h1>Categories</h1>
                 <ul>
 
-                    <li><a href="#">Asia Tour</a></li>
-                    <li><a href="#">Europe Adventures</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Seasonal Tour</a></li>
+                    <li><a href="#Asia">Asia Tour</a></li>
+                    <li><a href="#Europe">Europe Adventures</a></li>
+                    <li><a href="#Destinations">Destinations</a></li>
+                    <li><a href="#Seasonal tour">Seasonal Tour</a></li>
                 </ul>
             </div>
             <div className="contact">
                 <h1>Contact</h1>
                 <ul>
-                    <li><a href="/category/Sports">Contact</a></li>
-                    <li><a href="/category/Sports">Privacy Policy</a></li>
-                    <li><a href="/category/Sports">Terms Of Service</a></li>
-                    <li><a href="/category/Sports">Categories</a></li>
-                    <li><a href="/category/Sports">About</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms Of Service</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </div>
             <div className="option">
