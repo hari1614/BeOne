@@ -1,0 +1,45 @@
+.banner {
+    width: 100%;
+    height: 100%;
+    float: left; 
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    padding: none;
+    /* position: absolute;   */
+    object-fit: cover; 
+    /* z-index: -1; */
+                 
+  
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    /* bottom: 10%; */
+    width: 50%;
+  }
+  .banner-content h1{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+  }
+  .banner-content p{
+    color: white;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+    /* background: linear-gradient(
+      rgba(0, 0, 0, 0.9), 
+      rgba(0, 0, 0, 0.9),
+      url('https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=1024&quality=50')
+    ); */
+  }

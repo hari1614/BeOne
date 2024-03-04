@@ -1,0 +1,92 @@
+
+.contact-us{
+    padding: 10px;
+    /* border-top: 3px solid dimgray; */
+}
+.contact-us h1{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 4rem;
+    /* align-items: center; */
+    margin: 10px 0 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-left{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* .input-group{
+    padding: 10px;
+}
+.input-group input{
+    padding: 10px;
+} */
+.form-left {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form-left label {
+    text-align: left;
+    display: block;
+    font-family: "Inter";
+    font-weight: 300;
+    color: dimgray;
+  }
+ 
+  .form-left input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 15px;
+  }
+
+  .form-left textarea{
+    width: 100%;
+    height: 10vh;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 15px;
+
+  }
+  .form-left button {
+    background: #5cb2d6;
+    color: #fff;
+    border: 0;
+    padding: 14px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+   
+  }
+
+  .form-left button:hover {
+    color: white;
+    background: rgb(14, 210, 21);
+  }
+
+  .form .form-left {
+    padding: 40px;
+  }
+  .form-left input{
+    padding: 10px 0px;
+  }
+
+  .form-right {
+    margin-top: 5%;
+
+  }

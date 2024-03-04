@@ -1,0 +1,32 @@
+/* .main-items{
+    display: flex;
+} */
+
+/* .main-one, .main-two, .main-three{
+    width: 20%;
+    height: 30vh;
+    border: 1px solid black;
+} */
+.main-one{
+    padding: 20px;
+    margin: 20px;
+   text-align: center;
+   
+}
+.main-one h1{
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+    align-items: center;
+}
+
+.main-one p{
+   padding: 20px; 
+   font-size: 20px;
+   color: #4B5665;
+}
+
+.main-one img{
+    width: 40%;
+    height: 60vh;
+}
